@@ -9,9 +9,9 @@ namespace infofetcher.Controllers
     [ApiController]
     public class Columncontroller : ControllerBase 
     {
-        private readonly mathieu_h_appContext _context;
+        private readonly gillesatContext _context;
 
-        public Columncontroller (mathieu_h_appContext context) {
+        public Columncontroller (gillesatContext context) {
             _context = context;
             
         }
