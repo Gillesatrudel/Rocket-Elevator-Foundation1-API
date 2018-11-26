@@ -9,9 +9,9 @@ namespace infofetcher.Controllers
     [ApiController]
     public class BuildingController : ControllerBase 
     {
-        private readonly mathieu_h_appContext _context;
+        private readonly gillesatContext _context;
 
-        public BuildingController (mathieu_h_appContext context) {
+        public BuildingController (gillesatContext context) {
             _context = context;
             
         }

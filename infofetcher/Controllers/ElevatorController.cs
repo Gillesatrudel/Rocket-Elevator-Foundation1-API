@@ -7,9 +7,9 @@ namespace infofetcher.Controllers {
     [Route ("api/elevators")]
     [ApiController]
     public class ElevatorController : ControllerBase {
-        private readonly mathieu_h_appContext _context;
+        private readonly gillesatContext _context;
 
-        public ElevatorController (mathieu_h_appContext context) {
+        public ElevatorController (gillesatContext context) {
             _context = context;
             
         }

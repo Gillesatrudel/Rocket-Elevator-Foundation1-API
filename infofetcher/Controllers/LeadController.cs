@@ -9,9 +9,9 @@ namespace infofetcher.Controllers
     [ApiController]
     public class LeadController : ControllerBase 
     {
-        private readonly mathieu_h_appContext _context;
+        private readonly gillesatContext _context;
 
-        public LeadController (mathieu_h_appContext context) {
+        public LeadController (gillesatContext context) {
             _context = context;
             
         }
